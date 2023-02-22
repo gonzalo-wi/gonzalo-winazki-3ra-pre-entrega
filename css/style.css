@@ -1,0 +1,128 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+svg {
+  vertical-align: middle;
+  z-index: -1;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+header {
+  background-color: rgb(218, 130, 143);
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.nav_bar {
+  background-color: rgb(218, 130, 143);
+}
+.nav__list {
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+.color__section {
+  background-color: rgb(226, 255, 254);
+  padding-top: 6rem;
+}
+.logo__2 {
+  background-size: cover;
+  text-align: center;
+}
+.titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+}
+.android {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+.apple {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+.face {
+  text-align: center;
+  margin-left: 1rem;
+}
+.insta {
+  text-align: center;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+.descarga {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.parrafo {
+  text-align: center;
+  margin-top: 2rem;
+}
+.pie {
+  background-color: #e2fffe;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+}
+.centro {
+  text-align: center;
+}
+.p {
+  text-align: center;
+  text-align: justify;
+  display: inline-block;
+  margin-top: 1.2rem;
+}
+
+.box1 {
+  margin-left: 1.5rem;
+  display: inline-block;
+  list-style: none;
+}
+#download {
+  padding-top: 5rem;
+  background-color: rgb(218, 130, 143);
+}
+footer {
+  padding-top: 1rem;
+  background-color: rgb(218, 130, 143);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 600px;
+  padding: 1em;
+}
+.gon {
+  display: flex;
+  justify-content: space-between;
+}
