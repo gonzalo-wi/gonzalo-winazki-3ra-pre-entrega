@@ -60,15 +60,6 @@ header {
   margin-bottom: 2rem;
   padding: 0.5rem;
 }
-.face {
-  text-align: center;
-  margin-left: 1rem;
-}
-.insta {
-  text-align: center;
-  margin-left: 1rem;
-  padding-top: 1rem;
-}
 
 .descarga {
   text-align: center;
@@ -89,18 +80,7 @@ h1 {
 .centro {
   text-align: center;
 }
-.p {
-  text-align: center;
-  text-align: justify;
-  display: inline-block;
-  margin-top: 1.2rem;
-}
 
-.box1 {
-  margin-left: 1.5rem;
-  display: inline-block;
-  list-style: none;
-}
 #download {
   padding-top: 5rem;
   background-color: rgb(218, 130, 143);
