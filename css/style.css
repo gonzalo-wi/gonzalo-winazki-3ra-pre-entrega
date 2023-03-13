@@ -1,7 +1,3 @@
-html {
-  font-family: "Montserrat", sans-serif;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -31,19 +27,23 @@ header {
   z-index: 2;
 }
 
-.nav_bar {
-  background-color: rgb(218, 130, 143);
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.nav__list {
-  list-style: none;
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 600px;
+  padding: 1em;
 }
 
-.nav__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-weight: bold;
+.gon {
+  display: flex;
+  justify-content: space-between;
 }
 
 .color__section {
@@ -103,28 +103,24 @@ h1 {
   background-color: rgb(218, 130, 143);
 }
 
-footer {
-  padding-top: 1rem;
+.nav_bar {
   background-color: rgb(218, 130, 143);
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.nav__list {
+  list-style: none;
 }
 
-article {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 600px;
-  padding: 1em;
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
 }
 
-.gon {
-  display: flex;
-  justify-content: space-between;
+footer {
+  padding-top: 1rem;
+  background-color: rgb(218, 130, 143);
 }
 
 /*# sourceMappingURL=style.css.map */

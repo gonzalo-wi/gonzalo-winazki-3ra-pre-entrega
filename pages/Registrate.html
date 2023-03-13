@@ -21,6 +21,7 @@
   </head>
   <body>
      <header>
+      
       <div class="container">
       
       <nav class="navbar navbar-expand-lg bg-color: rgb(218, 130, 143) body-tertiary">
@@ -39,7 +40,10 @@
           <a class="nav-link" href="pages/Productos.html">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Ayuda</a>
+          <a class="nav-link" href="/pages/Registrate.html">Registrate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/Ayuda.html">Ayuda</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -52,45 +56,26 @@
 </nav>
     </header>
     <h1>Registrate</h1>
-    <form action="">
-      <fieldset>
-        <div>
-          <label for="nombre">Nombre:</label>
-          <input type="text" name="nombre" placeholder="Ingrese su nombre" />
-        </div>
-        <br />
-        <div>
-          <label for="apellido">Apellido:</label>
-          <input
-            type="text"
-            name="apellido"
-            placeholder="Ingrese su apellido"
-          />
-        </div>
-        <br />
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" name="email" placeholder="Ingrese su email" />
-        </div>
-        <br />
+    <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">Nombre y apellido</span>
+  <input type="text" class="form-control" placeholder="Ingresar nombre" aria-label="Username" aria-describedby="basic-addon1">
+</div>
 
-        <div>
-          <label for="contraseña">Contraseña:</label>
-          <input
-            type="password"
-            name="contraseña"
-            placeholder="Ingrese su contraseña"
-          />
-        </div>
-        <br />
-        <div>
-          <label for="contraseña1">Confirme su contraseña:</label>
-          <input
-            type="password"
-            name="contraseña1"
-            placeholder="Confirme contraseña"
-          />
-        </div>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Ingrese su mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+</div>
+
+<div class="mb-3">
+  <label for="basic-url" class="form-label">Elija una contraseña:</label>
+  <div class="input-group">
+    <span class="input-group-text" id="basic-addon3">Ingrese una contraseña</span>
+    <input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+  </div>  
+  <div class="input-group">
+    <span class="input-group-text" id="basic-addon3">Repita su contraseña</span>
+    <input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+  </div>  
         <br />
         <div>
           <label for="terminos">Acepta términos y condiciones</label>
@@ -98,7 +83,7 @@
         </div>
         <br />
         <div>
-          <input type="submit" />
+          <button type="button" class="btn btn-primary">Enviar</button>
         </div>
       </fieldset>
     </form>
